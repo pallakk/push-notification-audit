@@ -1,0 +1,9 @@
+service-account.json
+shared.key
+.venv/
+env/
+__pycache__/
+.vscode/
+.DS_Store
+receiver.tgz
+google-services.json
