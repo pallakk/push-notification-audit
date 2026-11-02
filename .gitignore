@@ -7,3 +7,5 @@ __pycache__/
 .DS_Store
 receiver.tgz
 google-services.json
+
+.idea/
