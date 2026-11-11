@@ -9,3 +9,15 @@ receiver.tgz
 google-services.json
 
 .idea/
+
+runs/
+
+node_modules/
+
+frida/build/
+apks/
+downloads/
+*.apk
+*.apks
+*.xapk
+sends.csv

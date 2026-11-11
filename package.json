@@ -1,0 +1,28 @@
+{
+  "name": "push-notification-audit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:frida": "frida-compile frida/agents/firebase_agent.js -o frida/build/firebase_agent.bundle.js -S"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pallakk/push-notification-audit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pallakk/push-notification-audit/issues"
+  },
+  "homepage": "https://github.com/pallakk/push-notification-audit#readme",
+  "dependencies": {
+    "frida-java-bridge": "^7.0.13"
+  },
+  "devDependencies": {
+    "frida-compile": "^19.1.0"
+  }
+}
